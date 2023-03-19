@@ -8,6 +8,7 @@ public class Main {
         String inputText = scanner.nextLine();
         String text = inputText.toLowerCase().replace(",", "").replace(".", "");
         String[] words = text.split(" ");
+
         System.out.println("\nВ тексте " + words.length + " слов.");
         System.out.println("\nTOP:");
         Map<String, Integer> countedWords = new HashMap<>();
